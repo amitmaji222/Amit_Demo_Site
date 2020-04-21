@@ -20,10 +20,17 @@
 h1, h2, h3 {
     font-family: 'Kalam', cursive;
 }
-body, .navbar {
+.navbar, .home-callout {
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,164,1) 100%);
 }
 .navbar{
   border: none;
+}
+
+.home-callout{
+  margin: -20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color:white;
 }
