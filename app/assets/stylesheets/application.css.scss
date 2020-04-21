@@ -24,13 +24,31 @@ h1, h2, h3 {
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,164,1) 100%);
 }
-.navbar{
+.navbar {
   border: none;
 }
 
-.home-callout{
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:white;
+  opacity: 0.75;
+}  
+
+.home-callout {
   margin: -20px;
   padding-top: 50px;
   padding-bottom: 50px;
-  color:white;
+  color: white;
 }
