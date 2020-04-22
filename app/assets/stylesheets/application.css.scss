@@ -35,6 +35,11 @@ h1, h2, h3 {
   border: none;
 }
 
+.navbar-brand {
+  font-family: 'Kalam', cursive;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a{
   color: white;
