@@ -16,14 +16,21 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
+// Typography Styles
 h1, h2, h3 {
     font-family: 'Kalam', cursive;
 }
+
+//Background Gradient
 .navbar, .home-callout {
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,164,1) 100%);
 }
+
+//Nav Styles
 .navbar {
   border: none;
 }
@@ -37,7 +44,7 @@ h1, h2, h3 {
   }
 }
 
-
+// Homepage Styles
 .home-callout {
   margin: -20px;
   padding-top: 50px;
