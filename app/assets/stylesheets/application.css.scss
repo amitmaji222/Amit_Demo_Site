@@ -21,13 +21,19 @@
 
 // Typography Styles
 h1, h2, h3 {
-    font-family: 'Kalam', cursive;
+   //font-family: 'Kalam', cursive;
+  //font-family: 'Comic Neue', cursive;
+  font-family: 'Comic Neue', cursive;
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Courgette', cursive;
 }
 
 //Background Gradient
 .navbar, .home-callout {
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,164,1) 100%);
+ background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 //Nav Styles
