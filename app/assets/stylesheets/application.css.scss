@@ -21,11 +21,11 @@
 
 // Typography Styles
 h1, h2, h3 {
-   //font-family: 'Kalam', cursive;
+   font-family: 'Kalam', cursive;
   //font-family: 'Comic Neue', cursive;
-  font-family: 'Comic Neue', cursive;
-  font-family: 'Work Sans', sans-serif;
-  font-family: 'Courgette', cursive;
+  // font-family: 'Comic Neue', cursive;
+  // font-family: 'Work Sans', sans-serif;
+  // font-family: 'Courgette', cursive;
 }
 
 //Background Gradient
@@ -42,8 +42,10 @@ background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, F
 }
 
 .navbar-brand {
-  font-family: 'Kalam', cursive;
-  font-weight: 800;
+  font-family: 'Comic Neue', cursive;
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Courgette', cursiv;
+  font-weight: 700;
 }
 
 .navbar-default .navbar-brand, 
@@ -63,8 +65,8 @@ background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, F
   border: 2px solid white;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus{
   background-color:#0575E6;  
 }
 // Homepage Styles
