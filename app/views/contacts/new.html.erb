@@ -1,1 +1,29 @@
-<h1>Contacts Form</h1>
+<div class= "container text-center">
+  <h3>Contact us</h3>
+  <!-- It is a HTML of doing a form field
+  <form>
+    <label>Name</label>
+    <input type="text">
+    <br>
+    <label>Email</label>
+    <input type="text">
+    <br>
+    <label>Comments</label>
+    <input type="text">
+    <br>
+    <input type="submit">
+  </form>
+  -->
+  <!--Now starts the Rails way of Form field-->
+  <%= form_for "/contacts" do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+    <%= f.label :comments %>
+    <%= f.text_area :comments %>
+    <%= f.submit 'Submit' %>
+  <% end %>
+  
+  
+</div>
