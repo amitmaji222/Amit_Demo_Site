@@ -84,3 +84,24 @@ background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, F
 .home-signup-links {
   margin-top: 50px;
 }
+
+// About page styles
+.about_page_card {
+  width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+#thumbnail {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cardContent {
+  padding: 10px;
+}
+
+.cardText {
+  margin: 60px;
+}
